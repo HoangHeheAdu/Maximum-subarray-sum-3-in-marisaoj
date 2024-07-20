@@ -35,7 +35,7 @@ Check __max-sub-sum-2-ver1.cpp__ to see the executed solution.
 # Maximum-subarray-sum-3
 Still with the idea from above problems, with $1 <= l <= r < i <= j < p <= k <= n$ such that $M = (A_l + A_{l + 1} + ... + A_r) + (A_i + A_{i + 1} + ... + A_j) + (A_p + A_{p + 1} + ... + A_k)$ is maximized
 
-Check max-sub-sum-3-ver1.cpp (this solution is the combination of **Sol_1** and **Sol_2** from **Maximum-subarray-sum-2**) 
+Check **max-sub-sum-3-ver1.cpp** (this solution is the combination of **Sol_1** and **Sol_2** from **Maximum-subarray-sum-2**) 
 
 We used the result from the transformation. 
 $M = (A_l + A_{l + 1} + ... + A_r) + (A_i + A_{i + 1} + ... + A_j) + (A_p + A_{p + 1} + ... + A_k)$
