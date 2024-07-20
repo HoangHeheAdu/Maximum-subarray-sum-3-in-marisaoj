@@ -28,7 +28,7 @@ B = S_j - (A_{i - 1} + ... + A_{r + 1}) - (A_{l - 1} + A_{l - 2} + ... + A_1)
 
 So to find the maximum of B, we need to find the minimum value of this (S_{i - 1} - (S_r - S_{l - 1})), which can be found when the value of (S_r - S_{l - 1}) is maximized
 
-Check max-sub-sum-2-ver1.cpp to see the executed solution.
+Check _max-sub-sum-2-ver1.cpp_ to see the executed solution.
 
 **Sol_2** This problem can also be solved when loop through h from 1 to n and find the maximum value of a sum from 1 to h and a sum from h to n (1 <= l <= r <= h < i <= j <= n).
 
@@ -45,8 +45,8 @@ M = (A_l + A_{l + 1} + ... + A_r) + (A_i + A_{i + 1} + ... + A_j) + (A_p + A_{p 
 
 Similarly, to find the maximum of M, we need to find the minimum value of this (S_{k - 1} - B), which can be found when the value of B is maximized
 
-Check max-sub-sum-3-ver2.cpp to see the answer.
+Check _max-sub-sum-3-ver2.cpp_ to see the answer.
 
-A little optimization, check max-sub-sum-3-ver3.cpp
+A little optimization for memory, check _max-sub-sum-3-ver3.cpp_ 
 
-Continue optimizing, check max-sub-sum-3-ver4.cpp
+Continue optimizing, check _max-sub-sum-3-ver4.cpp_
