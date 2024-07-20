@@ -64,7 +64,7 @@ This solution beats all solutions from other people in terms of time complexity 
 ![image](https://github.com/user-attachments/assets/c71ac419-2c44-4c8f-8b11-4424b460678e)
 
 
-# This has led to a generalized solution for any k <= n, check __max-sub-sum-3-ver5.cpp__, but remember to change k to the number you want
+**This has led to a generalized solution for any k <= n, check __max-sub-sum-3-ver5.cpp__, but remember to change k to the number you want**
 
 With this code, I chose k = 2 for **maximum-subarray-sum-2**, check this code __max-sub-sum-2-ver2.cpp__ and the result can be shown in this image
 
