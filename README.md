@@ -8,7 +8,7 @@ The solution comes up when I tried to solve maximum-subarray-sum-1 and maximum-s
 # Maximum-subarray-sum-1
 This can be solved using O(n) time complexity one. 
 
-The idea is to find the maximum sums from l to r with 1 <= l < r <= n. This sum is equal to S_r - S_l with 1 <= l < r <= n, this leads to the need of finding the minimum value of S_l. That means for every r (1 <= r <= n) 
+The idea is to find the maximum sums from l to r with $1 <= l < r <= n$. This sum is equal to S_r - S_l with 1 <= l < r <= n, this leads to the need of finding the minimum value of S_l. That means for every r (1 <= r <= n) 
 we need to find the smallest prefix sum with the length of l (l < r). This can be solved using one loop.
 
 ans_r = prefix_r - min(prefix_l) with 1 <= l < r <= n.
